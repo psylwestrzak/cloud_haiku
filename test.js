@@ -44,7 +44,7 @@ function processMarkdown(filename) {
 function validateHaiku(filename, lines, meta) {
   describe(filename, () => {
     it("should have a '.md' file extension", () => {
-      assert.ok(/\.md$/.test(filename), "extension does not match '.md'")
+      assert.ok(/\.md$/.test(filename), "extension doesn't match '.md'")
     })
 
     describe('file metadata', () => {
